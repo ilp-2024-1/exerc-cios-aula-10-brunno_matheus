@@ -1,4 +1,8 @@
+valor = int(input('Digita sua senha: '))
 senha = 20
-input()
-while senha != 20:
-    input(int('Digite a senha: '))
+while valor != senha:
+    valor = int(input('Digita sua senha: '))
+print('Senha correta!')
+print('Fim do programa!')    
+
+
